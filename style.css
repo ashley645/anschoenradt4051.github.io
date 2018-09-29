@@ -13,10 +13,12 @@ body{
 }
 .text-center{
   text-align: center;
+  font-family: fantasy;
 }
 .row{
   margin-bottom: 1em;
   margin-top: 1em;
+  font-family: cursive;
 }
 #header{
   position: fixed;
@@ -33,5 +35,20 @@ body{
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
 -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+}
+.card-body{
+  text-align: justify;
+  padding-left: 1em;
+  margin: 1em;
+  font-family: cursive;
+}
+.card-columns {
+  font-family: cursive;
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }
 
