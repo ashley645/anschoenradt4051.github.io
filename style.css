@@ -51,4 +51,21 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
     column-count: 5;
   }
 }
-
+#carouselExampleControls{
+  width: 33%;
+}
+.nav-item {
+  font-family: cursive;
+}
+#home-tab {
+  color: teal;
+  background-color: transparent;
+}
+#profile-tab {
+  color: teal;
+  background-color: transparent;
+}
+#contact-tab {
+  color: teal;
+  background-color: transparent;
+}
